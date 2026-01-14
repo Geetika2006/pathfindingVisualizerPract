@@ -1,0 +1,60 @@
+# 🧭 Pathfinding Visualizer
+
+An interactive Pathfinding Visualizer built using **HTML, CSS, and JavaScript** to demonstrate how different graph traversal and shortest-path algorithms work on a grid.
+
+This project visually compares algorithms based on:
+- nodes visited
+- shortest path length
+- execution time
+
+---
+
+## 🚀 Features
+
+- 📌 Set **Start** and **Target** nodes
+- 🧱 Draw and erase **walls**
+- 🧹 Clear path / walls / entire board
+- ⚡ Control **animation speed**
+- 🧠 Visual comparison of algorithms
+- 📊 Performance metrics displayed:
+  - Time taken (ms)
+  - Visited cells
+  - Path length
+
+---
+
+## 🧠 Algorithms Implemented
+
+- **DFS (Depth First Search)**
+- **BFS (Breadth First Search)**
+- **Dijkstra’s Algorithm**
+- **A\* Search Algorithm**
+- **Greedy Best First Search**
+
+---
+
+## 📊 Performance Metrics
+
+Each algorithm execution displays:
+- **Time Taken** – computation time using `performance.now()`
+- **Visited Cells** – number of nodes explored
+- **Path Length** – length of the final path (if found)
+
+> ⚠️ Note: Time measured is algorithm execution time, not animation time.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML**
+- **CSS**
+- **JavaScript (Vanilla JS)**
+- Priority Queue for weighted algorithms
+
+---
+
+## 🖥️ How to Run Locally
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/pathfinding-visualizer.git
