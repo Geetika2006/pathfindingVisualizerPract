@@ -1,60 +1,82 @@
 # 🧭 Pathfinding Visualizer
 
-An interactive Pathfinding Visualizer built using **HTML, CSS, and JavaScript** to demonstrate how different graph traversal and shortest-path algorithms work on a grid.
+An interactive **Pathfinding Visualizer** built using **HTML, CSS, and JavaScript** to understand how different pathfinding and graph traversal algorithms work on a grid.
 
-This project visually compares algorithms based on:
-- nodes visited
-- shortest path length
-- execution time
+This project helped me learn how algorithms behave visually rather than just memorizing theory.
 
 ---
 
 ## 🚀 Features
 
-- 📌 Set **Start** and **Target** nodes
-- 🧱 Draw and erase **walls**
-- 🧹 Clear path / walls / entire board
-- ⚡ Control **animation speed**
-- 🧠 Visual comparison of algorithms
-- 📊 Performance metrics displayed:
-  - Time taken (ms)
-  - Visited cells
-  - Path length
+- Interactive grid with start and end nodes
+- Create walls/obstacles by clicking on the grid
+- Visualize different pathfinding algorithms step-by-step
+- Clear grid and reset anytime
+- Simple and clean UI for easy understanding
 
 ---
 
 ## 🧠 Algorithms Implemented
 
-- **DFS (Depth First Search)**
-- **BFS (Breadth First Search)**
-- **Dijkstra’s Algorithm**
-- **A\* Search Algorithm**
-- **Greedy Best First Search**
+- **Breadth First Search (BFS)**  
+  Finds the shortest path in an unweighted grid.
+
+- **Depth First Search (DFS)**  
+  Explores deeply first and does not always guarantee the shortest path.
+
+- **Dijkstra’s Algorithm**  
+  Guarantees the shortest path using distance calculation.
+
+- **A\* Algorithm**  
+  Optimized version of Dijkstra using heuristics for faster performance.
 
 ---
 
-## 📊 Performance Metrics
+## 📸 Screenshots
 
-Each algorithm execution displays:
-- **Time Taken** – computation time using `performance.now()`
-- **Visited Cells** – number of nodes explored
-- **Path Length** – length of the final path (if found)
+### 🔹 User Interface
+![UI](images/ui.png)
 
-> ⚠️ Note: Time measured is algorithm execution time, not animation time.
+### 🔹 Breadth First Search (BFS)
+![BFS](images/bfs.png)
+
+### 🔹 Depth First Search (DFS)
+![DFS](images/dfs.png)
+
+### 🔹 Dijkstra’s Algorithm
+![Dijkstra](images/dijkstra.png)
+
+### 🔹 A* Algorithm
+![A*](images/astar.png)
+
+### 🔹 Wall Creation
+![Walls](images/walls.png)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **HTML**
-- **CSS**
-- **JavaScript (Vanilla JS)**
-- Priority Queue for weighted algorithms
+- **HTML** – Structure of the application  
+- **CSS** – Styling and animations  
+- **JavaScript** – Algorithm logic and visualization  
+
+No external libraries were used.
 
 ---
 
-## 🖥️ How to Run Locally
+## 💡 What I Learned
 
-1. Clone the repository
+- How different pathfinding algorithms actually work internally
+- Difference between traversal and shortest-path algorithms
+- Importance of visualization in understanding algorithms
+- Managing UI state using JavaScript
+- Writing cleaner and modular code
+
+---
+
+## ▶️ How to Run Locally
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pathfinding-visualizer.git
+   git clone https://github.com/Geetika2006/pathFindingVisualizerPract.git
+
